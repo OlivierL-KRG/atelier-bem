@@ -6,20 +6,43 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div id="teddy">
-    <div id="ear" class="left"></div>
-    <div id="ear" class="right"></div>
+<!-- ------------------
+ Corrected version
+------------------- -->
+<div class="ryan">
+    <div class="ryan__ear ryan__ear--left"></div>
+    <div class="ryan__ear ryan__ear--right"></div>
 
-    <div id="face">
-        <div id="eyebrow" class="right"></div>
+    <div class="ryan__face">
+        <div class="ryan__eyebrow ryan__eyebrow--right"></div>
 
-        <div id="eye" class="left"></div>
-        <div id="eye" class="right"></div>
+        <div class="ryan__eye ryan__eye--left"></div>
+        <div class="ryan__eye ryan__eye--right"></div>
 
-        <div id="nose"></div>
+        <div class="ryan__nose"></div>
 
-        <div id="mouth" class="left"></div>
-        <div id="mouth" class="right"></div>
+        <div class="ryan__mouth ryan__mouth--left"></div>
+        <div class="ryan__mouth ryan__mouth--right"></div>
+    </div>
+</div>
+
+<!-- ------------------
+ Variation using BEM
+------------------- -->
+<div class="ryan ryan--purple">                                               <!-- ryan--purple -->
+    <div class="ryan__ear ryan__ear--left"></div>
+    <div class="ryan__ear ryan__ear--right"></div>
+
+    <div class="ryan__face">
+        <div class="ryan__eyebrow ryan__eyebrow--right"></div>
+
+        <div class="ryan__eye ryan__eye--left ryan__eye--red"></div>          <!-- ryan__eye--red -->
+        <div class="ryan__eye ryan__eye--right ryan__eye--lime"></div>        <!-- ryan__eye--lime -->
+
+        <div class="ryan__nose"></div>
+
+        <div class="ryan__mouth ryan__mouth--left"></div>
+        <div class="ryan__mouth ryan__mouth--right"></div>
     </div>
 </div>
 </body>
