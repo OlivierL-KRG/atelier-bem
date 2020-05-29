@@ -8,7 +8,7 @@ body {
     background: #313654;
 }
 
-#ryan {
+#teddy {
     position: relative;
 
     width: 400px;
@@ -16,15 +16,15 @@ body {
     margin: 50px auto;
 }
 
-#ryan:hover #eyebrow.left {
+#teddy:hover #eyebrow.left {
     top: 100px;
 }
 
-#ryan:hover #eyebrow.right {
+#teddy:hover #eyebrow.right {
     transform: rotate(-10deg);
 }
 
-#ryan:hover #eye.right {
+#teddy:hover #eye.right {
     transform: scale(2, .1);
 }
 
