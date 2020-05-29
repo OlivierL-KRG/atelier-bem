@@ -1,0 +1,161 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    background: #313654;
+}
+
+#ryan {
+    position: relative;
+
+    width: 400px;
+    height: 380px;
+    margin: 50px auto;
+}
+
+#ryan:hover #eyebrow.left {
+    top: 100px;
+}
+
+#ryan:hover #eyebrow.right {
+    transform: rotate(-10deg);
+}
+
+#ryan:hover #eye.right {
+    transform: scale(2, .1);
+}
+
+#ear {
+    position: absolute;
+    top: 0;
+
+    width: 92px;
+    height: 92px;
+
+    border: 10px solid #000;
+    border-radius: 100%;
+    background: #d59729;
+}
+
+#ear.left {
+    left: 54px;
+}
+
+#ear.right {
+    right: 54px;
+}
+
+#face {
+    position: absolute;
+    bottom: 0;
+
+    width: 400px;
+    height: 367px;
+
+    border: 10px solid #000;
+    border-radius: 100%;
+    background: #d59729;
+}
+
+#eyebrow {
+    position: absolute;
+    top: 106px;
+
+    width: 78px;
+    height: 14px;
+
+    transition: all .2s;
+
+    border-radius: 14px;
+    background: #000;
+}
+
+#eyebrow.left {
+    left: 68px;
+}
+
+#eyebrow.right {
+    right: 68px;
+}
+
+#eye {
+    position: absolute;
+    top: 147px;
+
+    width: 26px;
+    height: 26px;
+
+    transition: all .2s;
+
+    border-radius: 100%;
+    background: #000;
+}
+
+#eye.left {
+    left: 98px;
+}
+
+#eye.right {
+    right: 98px;
+}
+
+#nose {
+    position: absolute;
+    z-index: 2;
+    top: 184px;
+    left: 50%;
+
+    width: 32px;
+    height: 33px;
+    margin-left: -16px;
+
+    border-radius: 80% 80% 100% 100%;
+    background: #000;
+}
+
+#mouth {
+    position: absolute;
+    top: 191px;
+    right: 73px;
+
+    width: 73px;
+    height: 68px;
+
+    border: 10px solid #000;
+    border-radius: 50%;
+    background: #fff;
+}
+
+#mouth.left {
+    left: 127px;
+}
+
+#mouth.right {
+    right: 127px;
+}
+
+#mouth:before {
+    position: absolute;
+    z-index: 1;
+
+    width: 30px;
+    height: 33px;
+
+    content: '';
+    transform: rotate(-45deg);
+
+    background: #fff;
+}
+
+#mouth.left:before {
+    top: 2px;
+    left: 29px;
+}
+
+#mouth.right:before {
+    top: 2px;
+    right: 31px;
+}
