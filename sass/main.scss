@@ -14,18 +14,18 @@ body {
 /*
 HTML
 • Structure : Convert ids to classes :
-<div id="eye" class="left"></div> => .ryan__eye.ryan__eye--left
+<div id="eye" class="left"></div> => .teddy__eye.teddy__eye--left
 
 SCSS
-• Move everything related to ryan inside it's "class"/namespace :
-.ryan {
+• Move everything related to teddy inside it's "class"/namespace :
+.teddy {
   &__eye {}
   &__nose {}
   ...
 }
 
 • Create modifiers
-.ryan {
+.teddy {
   &__eye {}
   &__eye--blue {
     background-color: blue;
@@ -33,7 +33,7 @@ SCSS
   ...
 }
 */
-.ryan {
+.teddy {
     position: relative;
 
     width: 400px;
