@@ -169,6 +169,10 @@ SCSS
         background: #fff;
     }
 
+    &__mouth--red {
+      background: red;
+    }
+
     &__mouth--left {
         left: 127px;
     }
@@ -188,6 +192,10 @@ SCSS
         transform: rotate(-45deg);
 
         background: #fff;
+    }
+
+    &__mouth--red:before {
+      background: red;
     }
 
     &__mouth--left:before {
